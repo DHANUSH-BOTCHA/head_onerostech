@@ -158,7 +158,8 @@ ul li.contact{
 	height: 800px;
 	left: 0px;
 	top: 203px;
-	margin: 0px 0px 0px 0px;
+	margin-left:0px;
+	margin-right:0px;
 	background:  #084165;
 }
 .about-title{
@@ -279,7 +280,8 @@ i:hover {
   height: 70px;
   left: 0px;
   top: 132px;
-  margin: 0px 0px 0px 0px;
+  margin-left:0px;
+  margin-right:0px;
   background: #3d5b6f;
 }
 .social-2 {
@@ -327,7 +329,7 @@ i:hover {
 	position: absolute;
 	width: 436px;
 	height: 800px;
-	
+	margin-right:auto;
 	right: 1px;
 	top: 0px;
 
