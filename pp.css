@@ -1,0 +1,398 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+ html,body {
+	position: absolute;
+	width: 1380px;
+	height: 2790px;
+	left: 0px;
+	top: 0px;
+	background:  #06394e;
+}
+#header {
+	position: absolute;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: auto;
+}
+#header .nav-bar .back{
+	position: absolute;
+	width: 123.41px;
+	height: 56.9px;
+	left: 55px;
+	top: 31px;
+}
+#header .nav-bar .title{
+	position: absolute;
+	width: 221px;
+	height: 42px;
+	left: 320px;
+	top: 40px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	line-height: 42px;
+	color: #f79a5a;
+}
+#header .nav-list .bar {
+	text-decoration: none;
+}
+.back-button{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 20px;
+	top: 30px
+}
+/*.back{
+	
+	left: 65px;
+	top: 60px;
+	text-align: center;
+	color: black;
+	background-color:#f79a5a; 
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 42px;
+}*/
+.head-logo{
+  position: absolute;
+  width: 86px;
+  height: 60px;
+  left: -106px;
+  top: -10px;
+}
+.head-logo{
+  outline: none;
+  border: none;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover{
+	color: orange; 
+}
+li a:: after{
+	color: orange;
+}
+ul li.games{
+	position: absolute;
+	width: 81px;
+	height: 28px;
+	left: 877px;
+	top: 37px;
+	color: white;
+	font-size: 21px;
+	list-style-type: none;
+	text-decoration: none;
+}
+ul p.horizontal{
+	position: absolute;
+	width: 0.3px;
+	height: 36.67px;
+	left: 985px;
+	top: 52px;
+	color: white;
+	
+}
+ul li.about{
+	position: absolute;
+	width: 77px;
+	height: 28px;
+	left: 992px;
+	top: 37px;
+	list-style-type: none;
+	color: white;
+	font-size: 21px;
+	text-decoration: none;
+}
+ul p.horizonta{
+	position: absolute;
+	width: 0.3px;
+	height: 36.67px;
+	left: 1096px;
+	top: 52px;
+	color: white;
+	list-style-type: none;
+}
+ul li.contact{
+	position: absolute;
+	width: 108px;
+	height: 28px;
+	left: 1101px;
+	top: 37px;
+	color: white;
+	font-size: 21px;
+	list-style-type: none;
+}
+/*for vertical line at below thw main heading*/
+/*hr{
+	position: absolute;
+	width: 1380px;
+	height: 0px;
+	left: 0px;
+	top: 112px;
+
+	border: 1px solid white;
+	
+	transform: rotate(0.01deg);
+}*/
+/*follow us section*/
+.heading {
+  position: absolute;
+  width: 174px;
+  height: 32px;
+  left: 540px;
+  top: 14px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 42px;
+
+  color: #fcfcfc;
+}
+i {
+  color: #15548E; 
+}
+
+.social-1 {
+  position: absolute;
+  width: 91px;
+  height: 84px;
+  left: 920px;
+  top: 8px;
+  color: #fcfcfc;
+}
+.social-container {
+  position: absolute;
+  width: 1380px;
+  height: 70px;
+  left: 0px;
+  top: 136px;
+
+  background: #3d5b6f;
+}
+.social-2 {
+  position: absolute;
+  width: 91px;
+  height: 84px;
+  left: 1020px;
+  top: 8px;
+  color: #fcfcfc;
+}
+.social-3 {
+  position: absolute;
+  width: 91px;
+  height: 84px;
+  left: 740px;
+  top: 8px;
+  color: #fcfcfc;
+}
+.social-4 {
+  position: absolute;
+  width: 91px;
+  height: 84px;
+  left: 830px;
+  top: 8px;
+  color: #fcfcfc;
+}
+.social-5 {
+  position: absolute;
+  width: 91px;
+  height: 84px;
+  left: 1120px;
+  top: 8px;
+  color: #fcfcfc;
+}
+.social-6 {
+  position: absolute;
+  width: 91px;
+  height: 84px;
+  left: 1220px;
+  top: 8px;
+  color: #fcfcfc;
+}
+#para{
+	position: relative;
+	width: 1380px;
+	height: 5120px;
+	left: 0px;
+	top: 206px;
+	background: #ffffff;
+}
+.para-content h1{
+	text-align: center;
+	font-size: 38px;
+}
+.para-heading h1{
+	text-align: left;
+	font-size: 28px;
+  margin-left: 30px;
+}
+.para-content p{
+	
+	font-size: 18px;
+	right: 18px;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+.para-paragraph p{
+	left: 20px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+}
+.ul_content{
+  margin-left: 40px;
+}
+/*footer*/
+.footer-title {
+  position: absolute;
+  width: 221px;
+  height: 42px;
+  left: 215px;
+  top: 5390px;
+  color: white;
+  font-size: 28px;
+  font-family: Roboto;
+}
+.footer-logo{
+  position: absolute;
+  width: 86px;
+  height: 60px;
+  left: 60px;
+  top: -65px;
+}
+.footer-logo{
+  outline: none;
+  border: none; 
+}
+.staright {
+  position: absolute;
+  width: 145px;
+  height: 0px;
+  left: 410px;
+  top: 5376px;
+
+  border: 1px solid #fdf5f5;
+  transform: rotate(90deg);
+}
+.home {
+  position: absolute;
+  width: 69px;
+  height: 28px;
+  left: 533px;
+  top: 5352px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+
+  list-style-type: none;
+  color: #fff7f7;
+}
+.horizontal0 {
+  position: absolute;
+  width: 0.3px;
+  height: 36.67px;
+  left: 620px;
+  top: 5364px;
+  color: white;
+}
+.games1 {
+  position: absolute;
+  width: 81px;
+  height: 28px;
+  left: 625px;
+  top: 5352px;
+  list-style-type: none;
+  color: #fff7f7;
+  font-family: Roboto;
+}
+.horizontal1 {
+  position: absolute;
+  width: 0.3px;
+  height: 36.67px;
+  left: 719px;
+  top: 5364px;
+  color: white;
+}
+.about1 {
+  position: absolute;
+  width: 77px;
+  height: 28px;
+  left: 728px;
+  top: 5352px;
+  list-style-type: none;
+  color: #fff7f7;
+  font-family: Roboto;
+}
+.horizontal2 {
+  position: absolute;
+  width: 0.3px;
+  height: 36.67px;
+  left: 824px;
+  top: 5364px;
+  color: white;
+}
+.contact1 {
+  position: absolute;
+  width: 108px;
+  height: 28px;
+  left: 835px;
+  top: 5352px;
+  list-style-type: none;
+  color: #fff7f7;
+  font-family: Roboto;
+}
+.horizontal3 {
+  position: absolute;
+  width: 0.3px;
+  height: 36.67px;
+  left: 954px;
+  top: 5364px;
+  color: white;
+}
+.pp {
+  position: absolute;
+  width: 184px;
+  height: 28px;
+  left: 963px;
+  top: 5352px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+
+  list-style-type: none;
+  color: #fff7f7;
+}
+.copyright{
+	position: absolute;
+	width: 184px;
+	height: 24px;
+	left: 570px;
+	top: 5480px;
+	font-size: 14px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	color: #F7F7F7;
+}
+/*end of footer*/

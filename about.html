@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Onerostech About Us</title>
+</head>
+<body>
+	<!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="back-button">
+          <a href="index.html"><img src="./game_images/sprites/back_button.png"></a>
+        </div>
+        <div class="title">
+          <a href="./index.html"><img src="./game_images/header_icon.png" class="head-logo"></a>
+          <h1>OnerosTech</h1>
+        </div>
+        <div class="nav-list">
+          <div class="bar">
+            <ul>
+              <li class="games " id="games"><a href="index.html" >GAMES</a></li>
+              <p class="horizontal">|</p>
+              <li class="about " id="about"><a href="about.html" >ABOUT</a></li>
+              <p class="horizonta">|</p>
+              <li class="contact " id="contact"><a href="contact.html" >CONTACT</a></li>
+            </ul>
+            
+          </div>
+            <hr>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+  <!--Social Media-->
+ <section id="social">
+   <div class="social-container">
+     <div class="heading">
+      <!-- <h1>Follow Us:</h1> -->
+     </div>
+     <div class="social-1">
+       <a href="https://www.linkedin.com/posts/onerostech_roulette-live-casino-apps-on-google-play-activity-6686294532700614656-ASxn"><img src="./game_images/sprites/linkedin_icon.png"></i></a>
+     </div>
+     <div class="social-2">
+       <a href="https://www.facebook.com/sunbeachcasinoapps"><img src="./game_images/sprites/facebook_icon.png"></a>
+     </div>
+     <!-- <div class="social-3">
+       <a href="#"><img src="./game_images/sprites/snapchat_icon.png"></a>
+     </div> -->
+     <div class="social-4">
+       <a href="https://twitter.com/CasinoSunbeach?s=08"><img src="./game_images/sprites/twitter_icon.png"></a>
+     </div>
+     <div class="social-5">
+       <a href="https://www.instagram.com/onerostech/"><img src="./game_images/sprites/instagram_icon.png"></a>
+     </div>
+     <div class="social-6">
+       <a href="https://www.youtube.com/channel/UCGG84Ox55Vdy7quLlz1RkqA"><img src="./game_images/sprites/youtube_icon.png"></a>
+     </div>
+    </div>
+ </section>
+
+  <!--end of social media-->
+  <section id="img">
+    
+  </section>
+  <!--main body-->
+  <section id="main">
+    <div class="main-container">
+      <div class="about-title">
+        <!-- <h1>ABOUT US</h1> -->
+      </div>
+      <div class="main-content">
+        <h1>We aim to provide Expert Advice and Quality Service</h1>
+        <p><span> Oneros Tech </span> is a laeding <span> GAME Development </span> company building the most popular 'CASINO GAMES' played worldwide. Our aim is to bring <span> LIVE CASINO </span> exeperience to your mobile screens and desktops. We focus on creating an entertaining social gaming exeperience by offereing free-to-play casino games. These multiplayer casino games provide you the opportunity to mingle with people from all over the world, share your exeperience and have Fun..!!<br>
+        We host a variety of Social, Live CASINO games on iPhone, Ipad and all Andriod mobile phones. Our team's goal is to create a real Mobile Casino where all players can connect through social platforms and Enjoy with full Zest on the go! Come and join us to enjoy challenging Poker Based Table games and Live Casino Games..</p>
+      </div>
+      <!--image section will come here-->
+      <div class="bg-image"></div>
+      <div class="bg-left-image"></div>
+      <div class="main-video">
+        <div class="video">
+          <div style="text-align: center;">
+            <button onclick="playPause()">Play/Pause</button>
+            <button onclick="fullScreen()"></button>
+            <br><br><br>
+            <video id="video1" width=""><source src="" type="video/mp4">
+              <source src="" type="video/ogg">Your Browser does not support HTML video</video>
+            
+          </div>
+          <script type="text/javascript">
+            var myVideo = document.getElementById("video1");
+            function playPause(){
+              if (myVideo.paused)
+                myVideo.play();
+              else
+                myVideo.pause();
+            }
+            function fullScreen() {
+              myVideo.width = device-width;
+            }
+          </script>
+
+        </div>
+        
+      </div>
+    </div>
+    
+  </section>
+  <!--end of main body-->
+  <!--footer-->
+  <section id="footer">
+  <div class="footer-content">
+    <div class="footer-title">
+      <a href="./index.html"><img src="./game_images/footer_icon.png" class="footer-logo"></a>
+      <h1>OnerosTech</h1>
+    </div>
+    <hr class="staright">
+    <div class="foot-bar">
+      <ul>
+            <li class="home"><a href="./index.html">HOME</a></li>
+            <p class="horizontal0">|</p>
+            <li class="games1"><a href="./index.html">GAMES</a></li>
+            <p class="horizontal1">|</p>
+            <li class="about1"><a href="./about.html">ABOUT</a></li>
+            <p class="horizontal2">|</p>
+            <li class="contact1"><a href="./contact.html">CONTACT</a></li>
+            <p class="horizontal3">|</p>
+            <li class="pp"><a href="pp.html">PRIVACY POLICY</a></li>
+          </ul>
+      
+    </div>
+    <div class="copyright">&copy;2020 ONEROS TECH</div>
+  </div>
+  </section>
+  <!--end of footer-->
+ <!-- <script type="text/javascript">
+   function openColor(eve, actionOccurs){
+    var i, all, show;
+    show = document.getElementByClassName("show");
+    for (i=0; i < show.length; i++ ){
+      show[i].style.display = "none";
+    }
+    all = document.getElementByClassName("all");
+    for (i=0; i < all.length; i++){
+      all[i].className = show[i].className.replace("active", "");
+    }
+    document.getElementById(actionOccurs).style.display = "block";
+    eve.currentTarget.className += " active";
+  }
+ </script> -->
+</body>
+</html>
+
