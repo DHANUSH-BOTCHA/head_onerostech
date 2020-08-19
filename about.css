@@ -10,6 +10,7 @@
 	height: 1024px;
 	left: 0px;
 	top: 0px;
+	margin: 0px 0px 0px 0px;
 	background: #06394e;
 }
 #header {
@@ -157,7 +158,7 @@ ul li.contact{
 	height: 800px;
 	left: 0px;
 	top: 203px;
-
+	margin: 0px 0px 0px 0px;
 	background:  #084165;
 }
 .about-title{
